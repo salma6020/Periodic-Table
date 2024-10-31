@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 9px;
+    background-color: #b5e6f4;
+    color: #333;
+
+}
+
+.Periodic-table{
+    display: grid;
+    grid-template-columns: repeat(18, 1fr); 
+    gap: 5px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+ #header h1{
+    width: 100px;
+    height: 100vh;
+    display: inline-block;
+    align-items: center;
+    margin-top: 6px;
+    
+
+}
+h1 span{
+    color: #b83e3e;
+    font-size: 40px;
+    
+}
+
+.element {
+    width: 50px;
+    height: 55px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 0.8em;
+    background-color: #fff;
+    transition: background 0.5s;
+}
+
+.atomic-number {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.symbol {
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+.name {
+    font-size: 0.5rem;
+    color: #333;
+}
+
+.atomic-mass {
+    font-size: 0.1rem;
+    color: #999;
+}
+        
+/*  colors for categories */
+.alkali {
+     background-color: #b83e3e; }
+
+.alkaline-earth {
+     background-color: #bc9d37; }
+
+.transition-metal {
+     background-color: #5382c9; }
+
+.post-transition-metal {
+     background-color: #bcaaa4; }
+
+.metalloid {
+     background-color: #329b76; }
+
+.nonmetal {
+     background-color: #12bdec; }
+
+.halogen {
+     background-color: #ffab91; }
+
+.noble-gas { 
+    background-color: #b39ddb; }
+.lanthanide{
+    background-color: #bc9d37;
+} 
+.actinide {
+    grid-column: span 2;
+    background-color: #ed5585;
+}
+.main-heading{
+    text-align: center;
+    font-size: 36px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
